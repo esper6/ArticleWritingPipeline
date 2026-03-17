@@ -1,6 +1,6 @@
 ---
 name: gap-check
-description: Check whether reading notes cover all the key questions from the research brief before outlining
+description: Check whether reading notes cover all the key questions from the research brief before scoping
 user-invocable: true
 ---
 
@@ -17,5 +17,5 @@ Check reading note coverage against the research brief's key questions.
 
 5. For each Partial or Missing question, suggest the source type most likely to fill the gap (referencing the "Suggested source types" section of the research brief).
 6. Close with one of:
-   - "All key questions are covered. You're ready to run Stage 2."
-   - "[N] questions need more material. Read further, then re-run /gap-check, or proceed to Stage 2 and note the gaps in the outline."
+   - "All key questions are covered. You're ready to run Stage 2 to lock down your scope."
+   - "[N] questions need more material. Read further, then re-run /gap-check, or proceed to Stage 2 and note the gaps in the scope."

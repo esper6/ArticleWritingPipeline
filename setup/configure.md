@@ -7,13 +7,13 @@ Complete this checklist before running Stage 1 for the first time. It only needs
 ## Checklist
 
 ### `_config/writing-conventions.md`
-**What it controls:** How the pipeline handles length guidance, visual aid recommendations, and the editorial criteria used in Stage 3.
+**What it controls:** How the pipeline handles length guidance, visual aid recommendations, and the editorial criteria used in Stage 4.
 
 **What "done" looks like:** You've read through the file and confirmed (or adjusted) the defaults. Pay particular attention to the Editorial Criteria section — it defines what kinds of feedback you'll get on your drafts.
 
-- [ ] Read `_config/writing-conventions.md`
-- [ ] Adjust the Editorial Criteria if the defaults don't match the kind of feedback you want
-- [ ] Adjust the Length section if the 3–15 min range doesn't fit your articles
+- [X] Read `_config/writing-conventions.md`
+- [X] Adjust the Editorial Criteria if the defaults don't match the kind of feedback you want
+- [X] Adjust the Length section if the 3–15 min range doesn't fit your articles
 
 ---
 

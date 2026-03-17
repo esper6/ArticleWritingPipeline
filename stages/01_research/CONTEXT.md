@@ -53,10 +53,10 @@ If the topic brief's angle or depth implies the article should stay narrower or 
 
 Close the output with this note:
 
-> **Next step:** Go read. When you're done, create `stages/01_research/output/reading-notes.md` and paste in your notes, excerpts, or summaries from what you read. Then run Stage 2.
+> **Next step:** Go read. When you're done, create `stages/01_research/output/reading-notes.md` and paste in your notes, excerpts, or summaries from what you read. Then run Stage 2 to lock down scope before outlining.
 >
 > Use `/summarize-source` to paste in an article or paper and get a structured summary formatted for your reading notes.
-> Use `/gap-check` to check whether your notes cover all the key questions before outlining.
+> Use `/gap-check` to check whether your notes cover all the key questions before scoping.
 
 ## Outputs
 - `research-brief.md` → output/

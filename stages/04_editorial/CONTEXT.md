@@ -1,16 +1,16 @@
-# Stage 3: Editorial
+# Stage 4: Editorial
 
 Review the author's draft and give specific, located editorial notes. No rewrites. No prose suggestions. Flag what's structurally or conceptually unclear so the author can fix it in their own way.
 
 ## Inputs
 - L4 (working): `draft.md` — the author's draft, placed in this stage's folder (not in output/)
-- L4 (working): `../02_outline/output/outline.md` — the article structure from Stage 2
+- L4 (working): `../03_outline/output/outline.md` — the article structure from Stage 3
 - L3 (reference): `../../_config/writing-conventions.md` — editorial criteria and what to flag
 
 ## Process
 
 **If `draft.md` is missing or empty**, stop and tell the author:
-"Write your article and save it as `stages/03_editorial/draft.md`, then run Stage 3."
+"Write your article and save it as `stages/04_editorial/draft.md`, then run Stage 4."
 
 Read all three inputs in full before writing any notes.
 
