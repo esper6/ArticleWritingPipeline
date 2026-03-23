@@ -10,8 +10,6 @@ Start the pipeline fresh for a new article topic. Archive everything from the cu
 
 Everything in `stages/` and `setup/topic-brief.md` **except** structural files that are part of the repo skeleton:
 - `stages/*/CONTEXT.md`
-- `stages/*/ARCHITECTURE.md`
-- `stages/*/README.md`
 - `stages/*/output/.gitkeep`
 
 All other files — user-supplied (PDFs, drafts, reading notes) and pipeline-generated (research brief, scope, outline, editorial notes, prose notes) — go into the archive. This preserves a complete snapshot of the run.
@@ -31,7 +29,7 @@ All other files — user-supplied (PDFs, drafts, reading notes) and pipeline-gen
    a. Create the `archive/` directory if it doesn't exist
    b. Collect all non-structural files into a temporary staging folder (preserving their paths relative to the project root), then zip it. Use `powershell.exe -Command "Compress-Archive ..."` to create the zip (this is a Windows environment without `zip` CLI). The zip file goes to `archive/YYYY-MM-DD_HHMMSS.zip`. Clean up the temporary staging folder after zipping.
    c. Verify the zip was created and is non-empty
-   d. Delete all non-structural files from `stages/` (everything except CONTEXT.md, ARCHITECTURE.md, README.md, and output/.gitkeep). If a file can't be deleted (locked by another process), note it to the user but continue.
+   d. Delete all non-structural files from `stages/` (everything except CONTEXT.md and output/.gitkeep). If a file can't be deleted (locked by another process), note it to the user but continue.
    e. Delete all files in `stages/*/output/` except `.gitkeep`
    f. Rewrite `setup/topic-brief.md` with this blank template exactly:
 
