@@ -12,7 +12,8 @@ Takes a vetted topic with angle and thesis, produces a learning map and article 
 | 1 | `stages/01_research/` | Build a learning map for the topic |
 | 2 | `stages/02_scope/` | Lock down thesis, angle, and scope boundaries from the reading |
 | 3 | `stages/03_outline/` | Structure the article from the scope and reading notes |
-| 4 | `stages/04_editorial/` | Give editorial notes on the author's draft |
+| 4 | `stages/04_editorial/` | Check conceptual coverage and structural arc against the outline |
+| 5 | `stages/05_prose/` | Flag sentence- and paragraph-level issues in the draft |
 
 ---
 

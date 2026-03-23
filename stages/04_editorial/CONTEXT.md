@@ -1,11 +1,11 @@
-# Stage 4: Editorial
+# Stage 4: Conceptual Review
 
-Review the author's draft and give specific, located editorial notes. No rewrites. No prose suggestions. Flag what's structurally or conceptually unclear so the author can fix it in their own way.
+Check whether the draft covers the outline's points and whether the overall arc holds. This stage is about what the article says, not how it says it. Prose-level feedback happens in Stage 5.
 
 ## Inputs
 - L4 (working): `draft.md` — the author's draft, placed in this stage's folder (not in output/)
 - L4 (working): `../03_outline/output/outline.md` — the article structure from Stage 3
-- L3 (reference): `../../_config/writing-conventions.md` — editorial criteria and what to flag
+- L3 (reference): `../../_config/writing-conventions.md` — conceptual review criteria
 
 ## Process
 
@@ -25,13 +25,13 @@ One sentence: "Editorial notes for '[working title]' — approximately [word cou
 2–3 sentences: does the draft follow the outline's arc? Does the overall structure work? Note any major departures from the outline — not as problems, but as things the author should be aware of. Intentional departures are fine; the author should know when they've diverged.
 
 **Section-by-section notes**
-Work through the draft section by section, applying the editorial criteria from `writing-conventions.md`.
+Work through the draft section by section, applying only the conceptual criteria from `writing-conventions.md`: conceptual gap and structural mismatch.
 
 Only write a note when there's something to flag. If a section has no issues, skip it entirely — the absence of a note means the section is clear. Do not write "Section X looks good."
 
 For each issue flagged:
 - Location: section name and paragraph number
-- Issue type: use the exact category names from `writing-conventions.md` (dead-end thought, meandering section, buried point, unexplained concept, conceptual gap, structural mismatch)
+- Issue type: use the exact category names from `writing-conventions.md` (conceptual gap, structural mismatch)
 - One sentence describing the specific problem
 - One sentence suggesting how the author might address it — but do not write the fix
 

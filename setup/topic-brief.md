@@ -32,7 +32,7 @@ Fill this in before each run. The more specific your angle and thesis, the more 
 <!-- Who is this for? What do they already know?
      Examples:
        "Technically literate readers who don't work in ML"
-       "People in the industry who know the problem but haven't read the theory"
+       "People in the industry who know the problem but haven't said, there are many"
        "Primarily myself — writing to solidify my understanding" -->
 
 
